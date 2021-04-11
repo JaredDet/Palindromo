@@ -53,7 +53,9 @@ public class Main {
         StringBuilder palindromo = new StringBuilder(palabra.toLowerCase());
 
         if (palindromo.toString().equals(palindromo.reverse().toString())){
+            
             System.out.println("Es un palíndromo");
+            
             return;
         }
         System.out.println("No es palíndromo");
